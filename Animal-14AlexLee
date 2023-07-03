@@ -1,0 +1,10 @@
+public class Animal{
+  public static void doStuff(){
+    // return "I am a dog";
+    int a = 0;
+    while (a < 50){
+      System.out.println("hi!");
+      a++;
+    }
+  }
+}
