@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+
+class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello world!");
+    //String name = "Susan";
+    //Note: things in parentheses are 99% methods
+    //System.out.println(name.toUpperCase());
+    /*String exclaim = addExclamationPoint("Hot Dog");
+    System.out.println(exclaim);*/
+    //Note: pulls in from object Animal.java
+    Animal a = new Animal();
+    a.doStuff();
+    // String dog = a.iAmDog();
+    // System.out.println(dog);
+    
+
+    
+  }
+  // public static String addExclamationPoint(String s){
+  //   return s + "!";
+  // }
+}
