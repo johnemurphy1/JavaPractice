@@ -1,0 +1,24 @@
+public class Circle {
+    public static final double PI = 3.14159;
+    public double r;
+
+    public static double radiansToDegrees(double radians) {
+        return radians * 180 / PI;
+    }
+
+    public double area() {
+        return PI * r * r;
+    }
+
+    public double circumference() {
+        return 2 * PI * r;
+    }
+
+    public static void main(String[] args) {
+        Circle circle = new Circle();
+        circle.r = 5.0;
+        System.out.println("Area of the circle: " + circle.area());
+        System.out.println("Circumference of the circle: " + circle.circumference());
+    
+    }
+}
